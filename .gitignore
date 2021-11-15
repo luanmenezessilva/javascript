@@ -1,3 +1,14 @@
+# INICIO
+# MEUS ARQUIVOS
+
+# Pasta dos modulos do node
+node_modules
+# Arquivos de Package
+package*.json
+
+# FIM
+# MEUS ARQUIVOS
+
 # Compiled class file
 *.class
 
