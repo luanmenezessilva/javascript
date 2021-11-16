@@ -5,6 +5,8 @@
 node_modules
 # Arquivos de Package
 package*.json
+# Arquivos .vscode
+.vscode
 
 # FIM
 # MEUS ARQUIVOS
