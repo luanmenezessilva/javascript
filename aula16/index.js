@@ -1,7 +1,6 @@
 require('dotenv').config()
 const mongodb = require('mongodb').MongoClient
 const url = process.env.URL_MONGO
-console.log(process.env.URL_MONGO)
 
 mongodb.connect(url, (erro, banco)=>{
     if (erro) throw erro;
