@@ -1,5 +1,6 @@
+require('dotenv').config()
 const mongodb = require('mongodb').MongoClient
-const url = "mongodb+srv://lmsilva:lmsilva@cluster0.qfkdo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const url = process.env.URL_MONGO
 
 mongodb.connect(url, (erro, banco)=>{
     if (erro) throw erro;
